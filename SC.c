@@ -12,5 +12,13 @@ int main() {
         printf("%d adalah bilangan ganjil.\n", angka);
     }
 
+    if (angka > 0) {
+        printf("%d adalah bilangan positif.\n", angka);
+    } else if (angka < 0) {
+        printf("%d adalah bilangan negatif.\n", angka);
+    } else {
+        printf("Angka yang dimasukkan adalah nol.\n");
+    }
+
     return 0;
 }
